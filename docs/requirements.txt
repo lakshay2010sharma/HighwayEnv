@@ -6,3 +6,4 @@ sphinx_github_changelog
 sphinxcontrib-bibtex
 ipykernel
 jupyter-sphinx
+tqdm

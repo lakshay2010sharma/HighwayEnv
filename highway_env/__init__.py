@@ -26,6 +26,12 @@ def register_highway_envs():
         entry_point='highway_env.envs:HighwayEnvFast',
     )
 
+    # highway_two_way_env.py
+    register(
+        id='highway-two-way-v0',
+        entry_point='highway_env.envs:HighwayTwoWayEnv',
+    )
+
     # intersection_env.py
     register(
         id='intersection-v0',

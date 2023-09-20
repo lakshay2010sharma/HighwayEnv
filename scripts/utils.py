@@ -6,7 +6,7 @@ import base64
 import os
 os.environ['PYVIRTUALDISPLAY_DISPLAYFD'] = '0'
 
-display = Display(visible=0, size=(1400, 900))
+display = Display(visible=1, size=(1400, 900))
 display.start()
 
 
